@@ -1,0 +1,39 @@
+/* Styling for Section 1: Banner */
+#banner {
+    background-color: lightpink;
+    border-radius: 5px;
+}
+
+.banner-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.right-content {
+    flex: 1;
+    text-align: center;
+}
+
+/* Styling for Text */
+h6 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+/* Styling for Image */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
