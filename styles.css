@@ -1,3 +1,4 @@
+/* Styling for Section 1: Banner */
 #banner {
     display: flex;
     background-color: #F9D7E3;
@@ -48,4 +49,226 @@
 .banner-image img {
     width: 635px;
     height: 800px;
+}
+
+/* Styling sign up */
+
+#sign-up {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.05);
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.sign-up-content {
+    padding: 60px;
+    flex: 1;
+}
+
+.sign-up-content header h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sign-up-content header span {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sign-up-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-up-content button {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    background-color: #E55473;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.sign-up-image {
+    flex-shrink: 0;
+}
+
+.sign-up-image img {
+    width: 318px;
+    height: 420px;
+}
+/* Styling Instagram*/
+
+#instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.instagram-content h2 {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.instagram-content p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.instagram-images {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.instagram-images img {
+    width: 342px;
+    height: 396px;
+    flex-shrink: 0;
+}
+
+/* Styling Latest Deals */
+
+#latest-deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./images/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.latest-deals-content {
+    text-align: center;
+}
+
+.latest-deals-content h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.latest-deals-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.subscription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.subscription input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 0 20px;
+    border: none;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.subscription button {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+/*  Styling Footer  */
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content header h2 {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.footer-content header .shop {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.footer-content p {
+    color: rgba(255, 255, 255, 0.90);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
 }
